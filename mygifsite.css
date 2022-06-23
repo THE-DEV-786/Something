@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(to right, blue, purple);
+  color: white;
+  text-align: center;
+}
+.mydiv {
+  background-image: url("images/giftcover.png");
+  border: 5px solid white;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mydiv:hover {
+  background-image: url("images/rickroll.gif");
+  background-size: cover;
+}
